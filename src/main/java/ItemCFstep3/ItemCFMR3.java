@@ -24,12 +24,20 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
  *
  */
 public class ItemCFMR3 {
-	// 输入文件的相对路径
+//	// 输入文件的相对路径
+//	private static String inPath = "/ItemCF/step1_output";
+//	// 输出文件的相对路径
+//	private static String outPath = "/ItemCF/step3_output";
+//	// hdfs 地址
+//	private static String hdfs = "hdfs://192.168.3.131:9000";
+	
+	
+	//本地windows hadoop
 	private static String inPath = "/ItemCF/step1_output";
 	// 输出文件的相对路径
-	private static String outPath = "/ItemCF/step3_output";
+	private static String outPath = "/ItemCF/step3_output/";
 	// hdfs 地址
-	private static String hdfs = "hdfs://192.168.3.131:9000";
+	private static String hdfs = "hdfs://localhost:9000";
 
 	public int run() {
 
